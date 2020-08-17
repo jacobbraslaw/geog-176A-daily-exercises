@@ -13,7 +13,7 @@ covid = read_csv(url)
 head(covid, 5)
 
 #state of interest
- state.intrest = "New Mexico"
+ state.intrest = "Ohio"
 
 #filter data
 RI<-covid %>%
